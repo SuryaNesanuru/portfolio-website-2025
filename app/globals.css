@@ -8,12 +8,12 @@
   --background-end-rgb: 30, 41, 59;
   
   /* Color System */
-  --primary: 30 64 175; /* blue-700 */
-  --primary-foreground: 248 250 252;
-  --secondary: 13 148 136; /* teal-600 */
-  --secondary-foreground: 240 253 250;
-  --accent: 234 88 12; /* orange-600 */
-  --accent-foreground: 255 251 235;
+  --primary: 236 72 153; /* pink-600 */
+  --primary-foreground: 255 255 255;
+  --secondary: 219 39 119; /* pink-700 */
+  --secondary-foreground: 255 255 255;
+  --accent: 244 114 182; /* pink-400 */
+  --accent-foreground: 255 255 255;
   
   /* Neutral Colors */
   --background: 15 23 42; /* slate-800 */
@@ -134,9 +134,9 @@
 
   /* Custom buttons */
   .btn-primary {
-    @apply bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 
-           text-white font-medium px-8 py-4 rounded-xl transition-all duration-300 
-           shadow-lg hover:shadow-xl hover:scale-105 active:scale-95;
+  @apply bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-700 hover:to-pink-800 
+       text-white font-medium px-8 py-4 rounded-xl transition-all duration-300 
+       shadow-lg hover:shadow-xl hover:scale-105 active:scale-95;
   }
   
   .btn-secondary {
